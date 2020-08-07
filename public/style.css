@@ -29,6 +29,30 @@ video {
 .main__right {
     display: flex;
     flex: 0.2;
+    flex-direction: column;
+    background-color: #242324;
+    border-left: 1px solid #3D3D42;
+}
+
+.main__header {
+    color: #F5F5F5;
+    text-align: center;
+}
+
+.main__chat_window {
+    flex-grow: 1;
+}
+
+.main__message_container {
+    display: flex;
+    padding: 22px 12px;
+}
+
+.main__message_container input {
+    flex-grow: 1;
+    border: none;
+    color: #F5F5F5;
+    background-color: transparent;
 }
 
 .main__videos {

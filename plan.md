@@ -8,7 +8,7 @@
     - [x] Create sockets and emit 
     - [x] Join room and broadcast
     - [x] New User Joins and video call answered
-- [ ] Add Styling
+- [x] Add Styling
 - [ ] Add ability to create messages
 - [ ] Add mute button
 - [ ] Add Stop Video button
