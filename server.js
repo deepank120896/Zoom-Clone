@@ -32,8 +32,13 @@ io.on("connection", (socket) => {
     socket.join(roomId);
     // when someone joins the room
     socket.to(roomId).broadcast.emit('user-connected', userId);
-    console.log("Joined the Room !!!");
-  });
-});
+    // console.log("Joined the Room !!!");
+
+    // listen and recieve message sent from other user and send back to same room
+    socket.on('message', message => {
+      io.to(roomId).emit('createMessage', message)
+    })
+  })
+})
 
 server.listen(3030);

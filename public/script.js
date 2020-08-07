@@ -1,5 +1,7 @@
 // Javascript for Front-End
 
+// const { text } = require("express");
+
 const socket = io("/");
 const videoGrid = document.getElementById("video-grid");
 // console.log(videoGrid)
@@ -64,3 +66,22 @@ const addVideoStream = (video, stream) => {
   });
   videoGrid.append(video);
 };
+
+
+let msg = $('input')
+
+// using jQuery to send message
+$('html').keydown((e) => {
+  // on press of ENTER KEY send message
+  // clear the message as soon as ENTER is pressed
+  if(e.which == 13 && msg.val().length !== 0) {
+    console.log(msg.val())
+    socket.emit('message',msg.val());
+    msg.val('')
+  }
+});
+
+// receive message from server
+socket.on('createMessage', message => {
+  console.log('this is from server', message)
+})
