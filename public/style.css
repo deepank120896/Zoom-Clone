@@ -104,6 +104,6 @@ video {
     list-style: none;
 }
 
-.unmute {
+.unmute, .stop {
     color: #CC3B33;
 }
