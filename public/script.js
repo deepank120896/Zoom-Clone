@@ -83,5 +83,7 @@ $('html').keydown((e) => {
 
 // receive message from server
 socket.on('createMessage', message => {
-  console.log('this is from server', message)
+  
+  $('ul').append(`<li class="message"><b>user</b><br/>${message}</li>`)
 })
+ 
