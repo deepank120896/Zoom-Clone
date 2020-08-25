@@ -9,6 +9,6 @@
     - [x] Join room and broadcast
     - [x] New User Joins and video call answered
 - [x] Add Styling
-- [ ] Add ability to create messages
-- [ ] Add mute button
-- [ ] Add Stop Video button
+- [x] Add ability to create messages
+- [x] Add mute button
+- [x] Add Stop Video button
