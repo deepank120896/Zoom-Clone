@@ -1,5 +1,11 @@
 ## Zoom Clone
 A Video Conference web-app
+* Hosting URL: *[Zoom Clone](https://zoom-clone-dk.herokuapp.com/)* 
+
+### Steps
+* Launch the application using hosting URL
+* Copy the launched link and send to a buddy
+* As soon as buddy launched URL, the call gets started.
 
 ### Technologies Used
 * **Peer JS** (Peer to Peer Audio, Video transfer)
@@ -14,4 +20,3 @@ A Video Conference web-app
     * Pause/Play video 
     * Pause/Play Audio
     * Chat with current User(s)
-* Hosting URL: *[Zoom Clone](https://zoom-clone-dk.herokuapp.com/)* 
