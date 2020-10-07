@@ -2,6 +2,8 @@
 A Video Conference web-app
 * Hosting URL: *[Zoom Clone](https://zoom-clone-dk.herokuapp.com/)* 
 
+![zoom-clone](https://user-images.githubusercontent.com/17775859/95357816-f66fff00-08e5-11eb-9270-70144a008f37.JPG)
+
 ### Steps
 * Launch the application using hosting URL
 * Copy the launched link and send to a buddy
